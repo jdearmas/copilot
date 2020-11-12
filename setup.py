@@ -1,7 +1,7 @@
 # setup.py: a build script for setuptools
 import setuptools
 
-with open("README.wiki", "r") as h:
+with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
@@ -14,7 +14,6 @@ setuptools.setup(
         packages=setuptools.find_packages(),
         classifiers=[
             "Programming Language :: Python :: 3",
-            "License :: OSI Approved :: GPL License",
             "Operating System :: OS Independent",
             ],
         python_requires='>=3.6',
