@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# TODO list
+TODO*
+
+# development documents
+docs/*
